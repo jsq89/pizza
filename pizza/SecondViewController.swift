@@ -10,6 +10,16 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    var miPizza : Pizza? = Pizza()
+    
+    @IBAction func printPizza(sender: AnyObject) {
+        if(miPizza != nil){
+            print(miPizza!.getStringSize())
+        }else{
+            print("Uppppps algo ha ido mal")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +29,10 @@ class SecondViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func setPizza (pizza : Pizza){
+        self.miPizza = pizza
+    }
 
 }
 

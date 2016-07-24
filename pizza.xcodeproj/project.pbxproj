@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82442EC1D437FED00E0B132 /* CheeseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82442EB1D437FED00E0B132 /* CheeseType.swift */; };
+		D87BFDE91D43CDF90076D8A1 /* IngredientsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BFDE81D43CDF90076D8A1 /* IngredientsType.swift */; };
+		D8CE2C241D443B18000AACE8 /* ReviewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE2C231D443B18000AACE8 /* ReviewPage.swift */; };
+		D8CE2C261D4445AE000AACE8 /* ConfirmationScrren.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE2C251D4445AE000AACE8 /* ConfirmationScrren.swift */; };
 		D8D321FE1D3F51380069BCA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D321FD1D3F51380069BCA7 /* AppDelegate.swift */; };
 		D8D322001D3F51380069BCA7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D321FF1D3F51380069BCA7 /* FirstViewController.swift */; };
 		D8D322021D3F51380069BCA7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D322011D3F51380069BCA7 /* SecondViewController.swift */; };
 		D8D322051D3F51380069BCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D322031D3F51380069BCA7 /* Main.storyboard */; };
 		D8D322071D3F51380069BCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D322061D3F51380069BCA7 /* Assets.xcassets */; };
 		D8D3220A1D3F51380069BCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D322081D3F51380069BCA7 /* LaunchScreen.storyboard */; };
+		D8D322121D3F6EE70069BCA7 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D322111D3F6EE70069BCA7 /* Pizza.swift */; };
+		D8D322141D3F79E20069BCA7 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D322131D3F79E20069BCA7 /* Structs.swift */; };
+		D8D322161D3F7FDF0069BCA7 /* DoughtType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D322151D3F7FDF0069BCA7 /* DoughtType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D82442EB1D437FED00E0B132 /* CheeseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseType.swift; sourceTree = "<group>"; };
+		D87BFDE81D43CDF90076D8A1 /* IngredientsType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsType.swift; sourceTree = "<group>"; };
+		D8CE2C231D443B18000AACE8 /* ReviewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewPage.swift; sourceTree = "<group>"; };
+		D8CE2C251D4445AE000AACE8 /* ConfirmationScrren.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationScrren.swift; sourceTree = "<group>"; };
 		D8D321FA1D3F51380069BCA7 /* pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D321FD1D3F51380069BCA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8D321FF1D3F51380069BCA7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,9 @@
 		D8D322061D3F51380069BCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8D322091D3F51380069BCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8D3220B1D3F51380069BCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D322111D3F6EE70069BCA7 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		D8D322131D3F79E20069BCA7 /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		D8D322151D3F7FDF0069BCA7 /* DoughtType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoughtType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				D8D322061D3F51380069BCA7 /* Assets.xcassets */,
 				D8D322081D3F51380069BCA7 /* LaunchScreen.storyboard */,
 				D8D3220B1D3F51380069BCA7 /* Info.plist */,
+				D8D322111D3F6EE70069BCA7 /* Pizza.swift */,
+				D8D322131D3F79E20069BCA7 /* Structs.swift */,
+				D8D322151D3F7FDF0069BCA7 /* DoughtType.swift */,
+				D82442EB1D437FED00E0B132 /* CheeseType.swift */,
+				D87BFDE81D43CDF90076D8A1 /* IngredientsType.swift */,
+				D8CE2C231D443B18000AACE8 /* ReviewPage.swift */,
+				D8CE2C251D4445AE000AACE8 /* ConfirmationScrren.swift */,
 			);
 			path = pizza;
 			sourceTree = "<group>";
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D322161D3F7FDF0069BCA7 /* DoughtType.swift in Sources */,
+				D82442EC1D437FED00E0B132 /* CheeseType.swift in Sources */,
+				D8D322121D3F6EE70069BCA7 /* Pizza.swift in Sources */,
 				D8D322021D3F51380069BCA7 /* SecondViewController.swift in Sources */,
+				D8D322141D3F79E20069BCA7 /* Structs.swift in Sources */,
 				D8D321FE1D3F51380069BCA7 /* AppDelegate.swift in Sources */,
+				D8CE2C241D443B18000AACE8 /* ReviewPage.swift in Sources */,
+				D8CE2C261D4445AE000AACE8 /* ConfirmationScrren.swift in Sources */,
+				D87BFDE91D43CDF90076D8A1 /* IngredientsType.swift in Sources */,
 				D8D322001D3F51380069BCA7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +316,7 @@
 				D8D322101D3F51380069BCA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
